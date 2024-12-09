@@ -33,8 +33,9 @@ const Navbar = () => {
 
             <HStack spacing={2} alignItems={'center'}>
                 <Link to={'/create'}>
-                    <Button>
-                        <PlusSquareIcon fontSize={20}/>
+                    <Button gap={2}>
+                    Create New Product
+                    <PlusSquareIcon fontSize={20}/>
                     </Button>
                 </Link>
                 <Button onClick={toggleColorMode}>                 
